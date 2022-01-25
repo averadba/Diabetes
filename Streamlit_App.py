@@ -1,6 +1,5 @@
 # Required libraries
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 from pycaret.datasets import get_data
 from pycaret.classification import load_model, predict_model
