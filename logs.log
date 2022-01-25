@@ -2420,3 +2420,243 @@ Name: diabetes, Length: 768, dtype: int64, [<pandas.io.formats.style.Styler obje
                                       verbose=0, warm_start=False)]],
          verbose=False)
 2022-01-18 09:57:51,840:INFO:save_model() successfully completed......................................
+2022-01-25 15:07:11,078:INFO:Initializing load_model()
+2022-01-25 15:07:11,083:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:09,285:INFO:Initializing load_model()
+2022-01-25 15:08:09,285:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:34,903:INFO:Initializing load_model()
+2022-01-25 15:08:34,903:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:35,835:INFO:Initializing load_model()
+2022-01-25 15:08:35,836:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:37,434:INFO:Initializing load_model()
+2022-01-25 15:08:37,435:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:43,385:INFO:Initializing load_model()
+2022-01-25 15:08:43,386:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:45,901:INFO:Initializing load_model()
+2022-01-25 15:08:45,901:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:46,697:INFO:Initializing load_model()
+2022-01-25 15:08:46,698:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:47,892:INFO:Initializing load_model()
+2022-01-25 15:08:47,893:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:50,152:INFO:Initializing load_model()
+2022-01-25 15:08:50,152:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:50,953:INFO:Initializing load_model()
+2022-01-25 15:08:50,954:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:52,769:INFO:Initializing load_model()
+2022-01-25 15:08:52,769:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:53,586:INFO:Initializing load_model()
+2022-01-25 15:08:53,587:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:55,894:INFO:Initializing load_model()
+2022-01-25 15:08:55,894:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:56,699:INFO:Initializing load_model()
+2022-01-25 15:08:56,699:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:08:57,518:INFO:Initializing load_model()
+2022-01-25 15:08:57,519:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:09:01,808:INFO:Initializing load_model()
+2022-01-25 15:09:01,809:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:09:02,621:INFO:Initializing load_model()
+2022-01-25 15:09:02,622:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:09:03,710:INFO:Initializing load_model()
+2022-01-25 15:09:03,710:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:09:03,859:INFO:Initializing predict_model()
+2022-01-25 15:09:03,860:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['times_pregnant'],
+                                      target='diabetes')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('dummy', Dummify(target='diabetes')),
+                ('fix_perfect', Remove_100(target='diabetes')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='diabetes',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=884)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-25 15:09:03,861:INFO:Checking exceptions
+2022-01-25 15:09:03,861:INFO:Preloading libraries
+2022-01-25 15:10:14,109:INFO:Initializing load_model()
+2022-01-25 15:10:14,109:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:10:17,720:INFO:Initializing load_model()
+2022-01-25 15:10:17,720:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:10:17,802:INFO:Initializing predict_model()
+2022-01-25 15:10:17,803:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['times_pregnant'],
+                                      target='diabetes')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('dummy', Dummify(target='diabetes')),
+                ('fix_perfect', Remove_100(target='diabetes')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='diabetes',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=884)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-25 15:10:17,804:INFO:Checking exceptions
+2022-01-25 15:10:17,804:INFO:Preloading libraries
+2022-01-25 15:21:00,480:INFO:Initializing load_model()
+2022-01-25 15:21:00,480:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:21:02,888:INFO:Initializing load_model()
+2022-01-25 15:21:02,888:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:21:02,959:INFO:Initializing predict_model()
+2022-01-25 15:21:02,959:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['times_pregnant'],
+                                      target='diabetes')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('dummy', Dummify(target='diabetes')),
+                ('fix_perfect', Remove_100(target='diabetes')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='diabetes',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=884)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-25 15:21:02,960:INFO:Checking exceptions
+2022-01-25 15:21:02,960:INFO:Preloading libraries
+2022-01-25 15:22:05,107:INFO:Initializing load_model()
+2022-01-25 15:22:05,107:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:22:08,022:INFO:Initializing load_model()
+2022-01-25 15:22:08,023:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:22:08,095:INFO:Initializing predict_model()
+2022-01-25 15:22:08,096:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['times_pregnant'],
+                                      target='diabetes')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('dummy', Dummify(target='diabetes')),
+                ('fix_perfect', Remove_100(target='diabetes')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='diabetes',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=884)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-25 15:22:08,096:INFO:Checking exceptions
+2022-01-25 15:22:08,097:INFO:Preloading libraries
+2022-01-25 15:25:59,745:INFO:Initializing load_model()
+2022-01-25 15:25:59,745:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:26:02,614:INFO:Initializing load_model()
+2022-01-25 15:26:02,615:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:26:02,687:INFO:Initializing predict_model()
+2022-01-25 15:26:02,687:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['times_pregnant'],
+                                      target='diabetes')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('dummy', Dummify(target='diabetes')),
+                ('fix_perfect', Remove_100(target='diabetes')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='diabetes',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=884)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-25 15:26:02,689:INFO:Checking exceptions
+2022-01-25 15:26:02,689:INFO:Preloading libraries
+2022-01-25 15:26:02,857:INFO:Initializing predict_model()
+2022-01-25 15:26:02,857:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['times_pregnant'],
+                                      target='diabetes')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('dummy', Dummify(target='diabetes')),
+                ('fix_perfect', Remove_100(target='diabetes')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='diabetes',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=884)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-25 15:26:02,858:INFO:Checking exceptions
+2022-01-25 15:26:02,859:INFO:Preloading libraries
+2022-01-25 15:26:41,901:INFO:Initializing load_model()
+2022-01-25 15:26:41,901:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:26:43,894:INFO:Initializing load_model()
+2022-01-25 15:26:43,895:INFO:load_model(model_name=Final_Model_xtra_tree, platform=None, authentication=None, verbose=True)
+2022-01-25 15:26:43,978:INFO:Initializing predict_model()
+2022-01-25 15:26:43,979:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['times_pregnant'],
+                                      target='diabetes')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('dummy', Dummify(target='diabetes')),
+                ('fix_perfect', Remove_100(target='diabetes')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='diabetes',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=884)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-25 15:26:43,980:INFO:Checking exceptions
+2022-01-25 15:26:43,980:INFO:Preloading libraries
