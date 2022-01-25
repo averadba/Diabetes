@@ -26,7 +26,9 @@ model = load_model('Final_Model_xtra_tree')
 st.write("""
 # Diabetes Prediction App
 
-Use this app to predict if the female patient will develop diabetes.
+## **Author:** *Alexis Vera, MPH, DBA
+
+Use this app to predict if the female patient will develop diabetes.  An Extra Tree model is used to predict the risk.
 
 
 """)
